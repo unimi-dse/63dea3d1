@@ -1,0 +1,10 @@
+Package: olympichist
+Type: Package
+Title: Analyse of olympic medals year by year on the basis of countries
+Version: 0.1.0
+Author: Bedirhan Selvi
+Maintainer: Bedirhan Selvi <bedirhan.selvi@studenti.unimi.it>
+Description: The package aims to ease the analyse of olympic results from 1896 to 2016
+License: No license
+Encoding: UTF-8
+LazyData: true

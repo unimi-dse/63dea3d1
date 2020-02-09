@@ -16,7 +16,7 @@
 require(devtools)
 
 import_data <- function(){
-  path <- system.file('/extdata/summer_olympics.csv', package = 'olympicdom')
+  path <- system.file('extdata/summer_olympics.csv', package = 'olympicdom')
   return(path)
 }
 

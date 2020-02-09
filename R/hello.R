@@ -17,7 +17,8 @@ require(devtools)
 
 import_data <- function(){
   path <- system.file('extdata/summer_olympics.csv', package = 'olympicdom')
-  return(path)
+  x <- read.csv(path)
+  return(x)
 }
 
 medals_table <- function(){

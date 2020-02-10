@@ -47,3 +47,42 @@ medals_table <- function(){
   m <- import_data()[,i]
   return(m)
 }
+
+gold_medals <- import_data(){ %>%
+  filter(Year >= 2000L & Year <= 2012L) %>%
+  filter(Sport %in% "Taekwondo") %>%
+
+  filter(Medal %in% "Gold") %>%
+  ggplot() +
+  aes(x = Country, fill = Medal) +
+  geom_bar() +
+  scale_fill_hue() +
+  coord_flip() +
+  theme_minimal()
+}
+
+silver_medals <- import_data(){ %>%
+  filter(Year >= 2000L & Year <= 2012L) %>%
+  filter(Sport %in% "Taekwondo") %>%
+
+  filter(Medal %in% "Silver") %>%
+  ggplot() +
+  aes(x = Country, fill = Medal) +
+  geom_bar() +
+  scale_fill_hue() +
+  coord_flip() +
+  theme_minimal()
+}
+
+bronze_medals <- import_data(){ %>%
+  filter(Year >= 2000L & Year <= 2012L) %>%
+  filter(Sport %in% "Taekwondo") %>%
+
+  filter(Medal %in% "bronze") %>%
+  ggplot() +
+  aes(x = Country, fill = Medal) +
+  geom_bar() +
+  scale_fill_hue() +
+  coord_flip() +
+  theme_minimal()
+}

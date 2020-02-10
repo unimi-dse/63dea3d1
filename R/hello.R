@@ -48,7 +48,8 @@ medals_table <- function(){
   return(filter(m, Sport == "Taekwondo", Year >= 2000L & Year <= 2012L))
 }
 
-gold_medals <- import_data() %>%
+gold_medals <- function(){
+ import_data() %>%
   filter(Year >= 2000L & Year <= 2012L) %>%
   filter(Sport %in% "Taekwondo") %>%
 
@@ -59,22 +60,25 @@ gold_medals <- import_data() %>%
   scale_fill_hue() +
   coord_flip() +
   theme_minimal()
+}
+
+silver_medals <- function(){
+  import_data() %>%
+    filter(Year >= 2000L & Year <= 2012L) %>%
+    filter(Sport %in% "Taekwondo") %>%
+
+    filter(Medal %in% "Silver") %>%
+    ggplot() +
+    aes(x = Country, fill = Medal) +
+    geom_bar() +
+    scale_fill_hue() +
+    coord_flip() +
+    theme_minimal()
+}
 
 
-silver_medals <- import_data() %>%
-  filter(Year >= 2000L & Year <= 2012L) %>%
-  filter(Sport %in% "Taekwondo") %>%
-
-  filter(Medal %in% "Silver") %>%
-  ggplot() +
-  aes(x = Country, fill = Medal) +
-  geom_bar() +
-  scale_fill_hue() +
-  coord_flip() +
-  theme_minimal()
-
-
-bronze_medals <- import_data() %>%
+bronze_medals <- function(){
+ import_data() %>%
   filter(Year >= 2000L & Year <= 2012L) %>%
   filter(Sport %in% "Taekwondo") %>%
 
@@ -85,4 +89,4 @@ bronze_medals <- import_data() %>%
   scale_fill_hue() +
   coord_flip() +
   theme_minimal()
-
+}

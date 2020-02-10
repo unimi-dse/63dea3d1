@@ -43,9 +43,9 @@ import_data <- function(){
 }
 
 medals_table <- function(){
-  i <- c(1, 6, 9)
+  i <- c(1, 3, 6, 9)
   m <- import_data()[,i]
-  return(m)
+  return(filter(m, Sport == "Taekwondo"))
 }
 
 gold_medals <- import_data() %>%

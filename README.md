@@ -1,6 +1,6 @@
 # Domination of Countries in Summer Olympics
 
-This package provides some functions which make it possible to see the medal counts achieved by countries in Summer Olympics from 1896 Athens to 2012 London, and the progress of the medal counts depending on the increase of the participating athletes.
+This package provides some functions which make it possible to see the medal counts achieved by countries in Summer Olympics from 1896 Athens to 2012 London, and the progress of the total medal counts depending on the increase of the participating athletes.
 
 Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumarmano/summer-olympics-dataset"
 

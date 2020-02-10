@@ -13,8 +13,11 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ## Using the Package
 
+###### Before starting, please require the package:
 ##### require(olympicdom)
-###### You also need to install another 5 packages not to get any error; you can download them with this function:
+###### You need to install another 5 packages not to get any error; if you have installed the packages written in the DESCRIPTION, you can 'require' the necessary packages with this function:
+##### reqr_necessary()
+###### otherwise, you can download them with this function:
 ##### necessary_pkgs()
 
 ## Dataset
@@ -25,7 +28,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ## Extracting Data
 
-###### Since we do not need all the variables, 3 variables are extracted with the aim of cleansing the data; to visualise the extracted dataframe please use the function:
+###### Since we do not need all the variables, 3 variables are extracted filtered by "Taekwondo" with the aim of cleansing the data; to visualise the extracted dataframe please use the function:
 
 ##### medals_table()
 

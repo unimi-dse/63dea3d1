@@ -2,6 +2,8 @@
 
 This package provides some functions which make it possible to see the medal counts achieved in Taekwondo sport by countries in Summer Olympics from the first appearance in 2000 Sydney to 2012 London, and the progress of the total medal counts depending on the increase of the participating athletes, with the aim of displaying the dominating nations in this sport.
 
+4 variables (Year, Sport, Country, Medal) interest us in this analysis. We are going to compare 2 of them (Country, Medal) on the basis of Year and Sport, which is filtered in "Taekwondo".
+
 Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumarmano/summer-olympics-dataset"
 
 ### Installation

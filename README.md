@@ -1,6 +1,6 @@
-# Domination of Countries at Taekwondo Sport in Summer Olympics
+# Medal Counts at Taekwondo Sport in Summer Olympics
 
-This package provides some functions which make it possible to see the medal counts achieved in Taekwondo sport by countries in Summer Olympics from the first appearance in 2000 Sydney to 2012 London, and the progress of the total medal counts depending on the increase of the participating athletes.
+This package provides some functions which make it possible to see the medal counts achieved in Taekwondo sport by countries in Summer Olympics from the first appearance in 2000 Sydney to 2012 London, and the progress of the total medal counts depending on the increase of the participating athletes, with the aim of displaying the dominating nations in this sport.
 
 Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumarmano/summer-olympics-dataset"
 

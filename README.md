@@ -9,7 +9,9 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ###### first install the R package "devtools" if not installed
 ##### devtools::install_github('unimi-dse/63dea3d1')
 
-##
+## Using the Package
+
+##### require(olympicdom)
 
 # Dataset
 

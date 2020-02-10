@@ -15,6 +15,14 @@
 
 require(devtools)
 
+reqr_necessary <- function(){
+  require(magrittr)
+  require(dplyr)
+  require(ggplot2)
+  require(plotly)
+  require(esquisse)
+}
+
 necessary_pkgs <- function(){
   install.packages('magrittr')
   install.packages('dplyr')

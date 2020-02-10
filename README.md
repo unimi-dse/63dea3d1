@@ -4,14 +4,14 @@ This package provides some functions which make it possible to see the medal cou
 
 Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumarmano/summer-olympics-dataset"
 
-## Installation
+### Installation
 
 ###### first install the R package "devtools" if not installed:
 ##### install.packages('devtools') ###### and ##### require(devtools)
 ###### Then install the R package "olympicdom":
 ##### devtools::install_github('unimi-dse/63dea3d1')
 
-## Using the Package
+### Using the Package
 
 ###### Before starting, please require the package:
 ##### require(olympicdom)
@@ -20,7 +20,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ###### otherwise, you can download & require them with this function:
 ##### necessary_pkgs()
 
-## Dataset
+### Dataset
 
 ###### The dataset contains 9 variables (Year, City, Sport, Discipline, Athlete, Country, Gender, Event, Medal); to visualise the dataframe please use the function:
 

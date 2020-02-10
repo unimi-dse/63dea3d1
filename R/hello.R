@@ -15,6 +15,19 @@
 
 require(devtools)
 
+necessary_pkgs <- function(){
+  install.packages('magrittr')
+  install.packages('dplyr')
+  install.packages('ggplot2')
+  install.packages('plotly')
+  install.packages('esquisse')
+  require(magrittr)
+  require(dplyr)
+  require(ggplot2)
+  require(plotly)
+  require(esquisse)
+}
+
 import_data <- function(){
   path <- system.file('extdata/summer_olympics.csv', package = 'olympicdom')
   x <- read.csv(path)

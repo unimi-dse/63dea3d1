@@ -78,7 +78,7 @@ bronze_medals <- import_data() %>%
   filter(Year >= 2000L & Year <= 2012L) %>%
   filter(Sport %in% "Taekwondo") %>%
 
-  filter(Medal %in% "bronze") %>%
+  filter(Medal %in% "Bronze") %>%
   ggplot() +
   aes(x = Country, fill = Medal) +
   geom_bar() +

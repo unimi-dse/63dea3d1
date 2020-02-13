@@ -10,7 +10,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ###### first install the R package "devtools" if not installed:
 ##### install.packages('devtools') 
-###### and 
+###### if 'devtools' is already installed:
 ##### require(devtools)
 ###### Then install the R package "olympicdom":
 ##### devtools::install_github('unimi-dse/63dea3d1')

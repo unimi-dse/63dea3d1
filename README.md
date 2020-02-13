@@ -32,7 +32,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ### Extracting Data
 
-###### Since we do not need all the variables, 4 variables (Year, Sport, Country, Medal) are extracted and 'Sport' is filtered in "Taekwondo" with the aim of cleansing the data; to visualise the extracted dataframe, you can use the function:
+###### Since we do not use all the variables, the needed 4 variables (Year, Sport, Country, Medal) are extracted and 'Sport' is filtered in "Taekwondo" with the aim of cleansing the data; to visualise the extracted dataframe, you can use the function:
 
 ##### medals_table()
 

@@ -26,7 +26,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ### Dataset
 
-###### The dataset contains 9 variables (Year, City, Sport, Discipline, Athlete, Country, Gender, Event, Medal); to visualise the dataframe please use the function:
+###### The dataset contains 9 variables (Year, City, Sport, Discipline, Athlete, Country, Gender, Event, Medal); to import the dataset & visualise the dataframe please use the function:
 
 ##### import_data()
 

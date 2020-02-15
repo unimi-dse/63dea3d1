@@ -42,3 +42,4 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ##### gold_medals()
 ##### silver_medals()
 ##### bronze_medals()
+##### all_medals()

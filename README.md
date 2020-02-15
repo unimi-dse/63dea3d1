@@ -41,13 +41,13 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ## Visualising Plots
 
 ###### To visualise the plots of acquired medals by countries, please use the functions below:
-###### Plot of Gold Medals:
+###### Gold Medals:
 ##### gold_medals()
-###### Plot of Silver Medals:
+###### Silver Medals:
 ##### silver_medals()
-###### Plot of Bronze Medals:
+###### Bronze Medals:
 ##### bronze_medals()
-###### Plot of Total Medals:
+###### Total Medals:
 ##### all_medals()
 
 ###### An animation of 'all medals()':

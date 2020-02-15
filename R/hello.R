@@ -90,3 +90,14 @@ bronze_medals <- function(){
   coord_flip() +
   theme_minimal()
 }
+
+all_medals <- function(){
+import_data() %>%
+  filter(Year >= 2000L & Year <= 2012L) %>%
+  filter(Sport %in% "Taekwondo") %>%
+  ggplot() +
+  aes(x = Country) +
+  geom_bar() +
+  scale_fill_hue() +
+  coord_flip()
+}

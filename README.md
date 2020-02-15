@@ -8,6 +8,8 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ### Installation
 
+##### (PLEASE RUN RSTUDIO AS AN ADMINISTRATOR TO BE ABLE TO SAVE THE ANIMATION ON DOCUMENTS)
+
 ###### first install the R package "devtools" if not installed:
 ##### install.packages('devtools') 
 ###### if 'devtools' is already installed:

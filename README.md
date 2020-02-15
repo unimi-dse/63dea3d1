@@ -19,7 +19,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 
 ###### Before starting, please require the package:
 ##### require(olympicdom)
-###### You need to install another 5 packages not to get any error; if you have installed the packages written in the DESCRIPTION, you can 'require' the necessary packages with this function:
+###### You need to install some other packages not to get any error; if you have installed the packages written in the DESCRIPTION, you can 'require' the necessary packages with this function:
 ##### reqr_necessary()
 ###### otherwise, you can download & require them with this function:
 ##### necessary_pkgs()
@@ -43,3 +43,7 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ##### silver_medals()
 ##### bronze_medals()
 ##### all_medals()
+
+###### An animation of plots:
+##### all_medals_animate()
+

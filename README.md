@@ -47,3 +47,5 @@ Source: Summer Olympics Dataset acquired from "https://www.kaggle.com/sunilkumar
 ###### An animation of plots:
 ##### all_medals_animate()
 
+###### To save the animation as a gif file:
+##### total_animation()

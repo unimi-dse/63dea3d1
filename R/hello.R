@@ -125,6 +125,6 @@ all_medals_animate <- function(){
             ease_aes('linear'))
 }
 
-total_animation <- function(){
+save_all_animation <- function(){
   anim_save(filename = "allmedals.gif", all_medals_animate(), path = NULL)
 }

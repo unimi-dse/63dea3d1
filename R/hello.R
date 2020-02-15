@@ -21,6 +21,9 @@ reqr_necessary <- function(){
   require(ggplot2)
   require(plotly)
   require(esquisse)
+  require(gganimate)
+  require(gapminder)
+  require(gifski)
 }
 
 necessary_pkgs <- function(){
@@ -29,11 +32,17 @@ necessary_pkgs <- function(){
   install.packages('ggplot2')
   install.packages('plotly')
   install.packages('esquisse')
+  install.packages('gganimate')
+  install.packages('gapminder')
+  install.packages('gifski')
   require(magrittr)
   require(dplyr)
   require(ggplot2)
   require(plotly)
   require(esquisse)
+  require(gganimate)
+  require(gapminder)
+  require(gifski)
 }
 
 import_data <- function(){
@@ -100,4 +109,18 @@ import_data() %>%
   geom_bar() +
   scale_fill_hue() +
   coord_flip()
+}
+
+all_medals_animate <- function(){
+          animate(import_data() %>%
+            filter(Year >= 2000L & Year <= 2012L) %>%
+            filter(Sport %in% "Taekwondo") %>%
+            ggplot() +
+            aes(x = Country) +
+            geom_bar() +
+            scale_fill_hue() +
+            coord_flip()+
+            labs(title = 'Year: {frame_time}', x = 'Country', y = 'Medal Count') +
+            transition_time(Year)+
+            ease_aes('linear'))
 }

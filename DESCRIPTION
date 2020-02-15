@@ -14,4 +14,7 @@ Imports:
     ggplot2,
     esquisse,
     plotly,
-    magrittr
+    magrittr,
+    gifski,
+    gapminder,
+    gganimate

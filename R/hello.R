@@ -124,3 +124,7 @@ all_medals_animate <- function(){
             transition_time(Year)+
             ease_aes('linear'))
 }
+
+total_animation <- function(){
+  anim_save(filename = "allmedals.gif", all_medals_animate(), path = NULL)
+}

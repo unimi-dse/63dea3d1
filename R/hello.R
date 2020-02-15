@@ -14,12 +14,6 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 require(devtools)
-usethis::use_package("magrittr", type = "Imports", min_version = NULL)
-usethis::use_package("dplry", type = "Imports", min_version = NULL)
-usethis::use_package("ggplot2", type = "Imports", min_version = NULL)
-usethis::use_package("plotly", type = "Imports", min_version = NULL)
-usethis::use_package("esquisse", type = "Imports", min_version = NULL)
-usethis::use_package("gganimate", type = "Imports", min_version = NULL)
 
 reqr_necessary <- function(){
   require(magrittr)
